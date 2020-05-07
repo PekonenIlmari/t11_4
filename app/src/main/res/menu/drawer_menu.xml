@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_frontpage"
+            android:icon="@drawable/ic_frontpage"
+            android:title="Etusivu"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Asetukset"/>
+    </group>
+
+    <item android:title="Fonttikoko">
+        <menu>
+            <item
+                android:id="@+id/font_bigger"
+                android:icon="@drawable/ic_add"
+                android:title="Suurenna fonttia" />
+            <item
+                android:id="@+id/font_smaller"
+                android:icon="@drawable/ic_remove"
+                android:title="Pienennä fonttia" />
+        </menu>
+    </item>
+
+    <item android:title="Leveys">
+        <menu>
+            <item
+                android:id="@+id/width_bigger"
+                android:icon="@drawable/ic_add"
+                android:title="Kasvata leveyttä" />
+            <item
+                android:id="@+id/width_smaller"
+                android:icon="@drawable/ic_remove"
+                android:title="Pienennä leveyttä" />
+        </menu>
+    </item>
+
+    <item android:title="Korkeus">
+        <menu>
+            <item
+                android:id="@+id/height_bigger"
+                android:icon="@drawable/ic_add"
+                android:title="Kasvata korkeutta" />
+            <item
+                android:id="@+id/height_smaller"
+                android:icon="@drawable/ic_remove"
+                android:title="Pienennä korkeutta" />
+        </menu>
+    </item>
+
+    <item android:title="Kirjainväli">
+        <menu>
+            <item
+                android:id="@+id/spacing_bigger"
+                android:icon="@drawable/ic_add"
+                android:title="Kasvata kirjainväliä" />
+            <item
+                android:id="@+id/spacing_smaller"
+                android:icon="@drawable/ic_remove"
+                android:title="Pienennä kirjainväliä" />
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:title=""
+                android:enabled="false"/>
+            <item
+                 android:title=""
+                android:enabled="false"/>
+        </menu>
+    </item>
+
+    <item
+        android:icon="@drawable/ic_frontpage"
+        android:title="Kirjaudu ulos"/>
+
+
+
+
+</menu>
